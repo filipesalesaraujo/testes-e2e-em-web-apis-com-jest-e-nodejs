@@ -1,0 +1,1 @@
+Projeto com objetivo de estudo testes e2e em Web APIs com Jest e Node.js.
