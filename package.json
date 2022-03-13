@@ -1,0 +1,29 @@
+{
+  "name": "testes-e2e-em-web-apis-com-jest-e-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS='--experimental-vm-modules' jest --watchAll --no-warnings"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipesalesaraujo/testes-e2e-em-web-apis-com-jest-e-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filipesalesaraujo/testes-e2e-em-web-apis-com-jest-e-nodejs/issues"
+  },
+  "homepage": "https://github.com/filipesalesaraujo/testes-e2e-em-web-apis-com-jest-e-nodejs#readme",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
